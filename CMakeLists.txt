@@ -8,7 +8,7 @@ add_subdirectory(external/googletest/repo/googletest)
 
 set(GFLAGS_IS_SUBPROJECT TRUE)
 set(GFLAGS_NAMESPACE "google")
-#set(BUILD_SHARED_LIBS TRUE)
+set(BUILD_SHARED_LIBS TRUE)
 add_subdirectory(external/gflags/repo)
 add_subdirectory(external/glog/repo)
 
