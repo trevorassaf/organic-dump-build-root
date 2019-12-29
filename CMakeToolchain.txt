@@ -1,0 +1,23 @@
+# /home/bozkurtus/Documents/codez/personal-repos/rpi-x-tools/rpi-x-toolchain-repo/rpi-newer-crosstools/x64-gcc-6.5.0/arm-rpi-linux-gnueabihf
+
+set(toolchain_dir /home/bozkurtus/Documents/codez/personal-repos/rpi-x-tools/rpi-x-toolchain-repo/rpi-newer-crosstools/x64-gcc-6.5.0/arm-rpi-linux-gnueabihf)
+set(project_root /home/bozkurtus/Documents/codez/personal-repos/organic-dump/organic-dump-project)
+set(project_build_root ${project_root}/x-out)
+set(xtools ${toolchain_dir}/bin)
+
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_PROCESSOR arm)
+
+set(CMAKE_SYSROOT ${toolchain_dir}/arm-rpi-linux-gnueabihf/sysroot)
+set(CMAKE_STAGING_PREFIX ${project_build_root}/host)
+
+set(CMAKE_C_COMPILER ${xtools}/arm-rpi-linux-gnueabihf-gcc)
+set(CMAKE_CXX_COMPILER ${xtools}/arm-rpi-linux-gnueabihf-g++)
+
+set(CMAKE_FIND_ROOT_PATH ${toolchain_dir})
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)
+
+set(CMAKE_TRY_COMPILE_TARGET_TYPE "STATIC_LIBRARY")
