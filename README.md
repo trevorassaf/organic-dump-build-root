@@ -12,3 +12,5 @@ PlantsAndThings database: plantsandthings
 
 Server mysql username: trevor
 Server mysql password: <nothing>
+
+Mysql 8 Password: rootMysqlPassword
