@@ -1,7 +1,7 @@
 #!/bin/bash
 source client-resources.sh
 
-# Register Sandrock Sensor
+# Register Gundam Zero Sensor
 `$CLIENT_EXECUTABLE \
   --ca=$CA_CERT \
   --cert=$CLIENT_CERT \
