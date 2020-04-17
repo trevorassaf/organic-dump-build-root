@@ -15,6 +15,16 @@ TARGET_MACHINE=35.208.146.146
 #  --key=$CLIENT_KEY \
 #  --ipv4=$TARGET_MACHINE \
 #  --port=5555 \
+#  --action='register_rpi' \
+#  --name='squidward 2' \
+#  --location='bikini bottom 2'`
+
+#`$CLIENT_EXECUTABLE \
+#  --ca=$CA_CERT \
+#  --cert=$CLIENT_CERT \
+#  --key=$CLIENT_KEY \
+#  --ipv4=$TARGET_MACHINE \
+#  --port=5555 \
 #  --action='register_soil_moisture_sensor' \
 #  --name='squidward 2' \
 #  --location='bikini bottom 2' \
@@ -27,6 +37,16 @@ TARGET_MACHINE=35.208.146.146
   --key=$CLIENT_KEY \
   --ipv4=$TARGET_MACHINE \
   --port=5555 \
-  --action='register_rpi' \
-  --name='squidward 2' \
-  --location='bikini bottom 2'`
+  --action='set_peripheral_ownership' \
+  --id=1 \
+  --parent_id=1`
+
+#`$CLIENT_EXECUTABLE \
+#  --ca=$CA_CERT \
+#  --cert=$CLIENT_CERT \
+#  --key=$CLIENT_KEY \
+#  --ipv4=$TARGET_MACHINE \
+#  --port=5555 \
+#  --action='send_soil_moisture_measurement' \
+#  --id=1 \
+#  --measurement=0.5`

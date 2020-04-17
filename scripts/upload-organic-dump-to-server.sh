@@ -6,6 +6,7 @@
 OUT_PACKAGES=(
 libssl.so
 libcrypto.so
+libgpio14.so
 liborganic_dump_proto.so
 libprotobuf.so.3.10.0.0
 organic_dump_server \
@@ -40,4 +41,4 @@ function upload_packages() {
 #ssh -i $SSH_KEY_PATH "$SSH_USERNAME@$TARGET_MACHINE" rm $DESTINATION_PATH/*
 #ssh -i $SSH_KEY_PATH "$SSH_USERNAME@$TARGET_MACHINE" mkdir -p $DESTINATION_PATH
 upload_packages "${OUT_PACKAGES[@]}"
-#upload_packages "${EXTERNAL_PACKAGES[@]}"
+upload_packages "${EXTERNAL_PACKAGES[@]}"

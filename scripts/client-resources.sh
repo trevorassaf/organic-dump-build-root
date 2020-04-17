@@ -1,0 +1,9 @@
+PWD=`pwd`
+OUT_DIR=$PWD/../out
+CLIENT_EXECUTABLE=$OUT_DIR/code/organic-dump-client-application/repo/organic_dump_client
+CERTS_DIR=/home/bozkurtus/Documents/codez/personal-repos/organic-dump/organic-dump-project/scripts
+CLIENT_CERT=$CERTS_DIR/client_cert.pem
+CLIENT_KEY=$CERTS_DIR/client_key.pem
+CA_CERT=$CERTS_DIR/ca_cert.pem
+TARGET_MACHINE=35.208.146.146
+PORT=5555

@@ -14,6 +14,7 @@ add_subdirectory(external/gflags/repo)
 add_subdirectory(external/glog/repo)
 #add_subdirectory(external/mysql-cpp/repo)
 
+add_subdirectory(code/gpio14/repo)
 add_subdirectory(code/organic-dump-client-application/repo)
 add_subdirectory(code/organic-dump-server-application/repo)
 add_subdirectory(code/organic-dump-network/repo)
