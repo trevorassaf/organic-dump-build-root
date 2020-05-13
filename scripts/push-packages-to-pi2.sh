@@ -7,6 +7,9 @@ ALL_PACKAGES=(
   liborganic_dump_proto.so \
   libcrypto.so \
   libssl.so \
+  libjsoncpp.so.1.9.3 \
+  libjsoncpp.so.23 \
+  libjsoncpp.so \
   libprotobuf.so.3.10.0.0 \
 )
 
@@ -22,14 +25,15 @@ for package in ${ALL_PACKAGES[@]}; do
   packages_string="$package_path $packages_string"
 done
 
-CERTS=(
+LOCAL_PACKAGES=(
   client_cert.pem
   client_key.pem
   ca_cert.pem
   run-pot-monitor.sh
+  config.json
 )
 
-for package in ${CERTS[@]}; do
+for package in ${LOCAL_PACKAGES[@]}; do
   package_path=$(find $PROJECT_ROOT/scripts -name $package)
   packages_string="$package_path $packages_string"
 done

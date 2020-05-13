@@ -23,3 +23,4 @@ add_subdirectory(code/mysql-cpp-prebuilts/repo)
 
 add_subdirectory(external/boringssl/repo)
 add_subdirectory(external/protobuf/repo/cmake)
+add_subdirectory(external/jsoncpp/repo)
