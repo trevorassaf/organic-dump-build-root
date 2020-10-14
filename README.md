@@ -14,3 +14,13 @@ Server mysql username: trevor
 Server mysql password: <nothing>
 
 Mysql 8 Password: rootMysqlPassword
+
+
+# How to upload non-manifest repos
+git push github HEAD:master
+
+# How to upload manifest repos
+git push origin HEAD:master
+
+# How to sync repos
+repo sync -j20 -d
