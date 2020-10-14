@@ -16,9 +16,10 @@ add_subdirectory(external/glog/repo)
 
 add_subdirectory(code/gpio14/repo)
 add_subdirectory(code/organic-dump-client-application/repo)
-add_subdirectory(code/organic-dump-server-application/repo)
+add_subdirectory(code/organic-dump-irrigation-controller/repo)
 add_subdirectory(code/organic-dump-network/repo)
 add_subdirectory(code/organic-dump-protocols/repo)
+add_subdirectory(code/organic-dump-server-application/repo)
 add_subdirectory(code/mysql-cpp-prebuilts/repo)
 
 add_subdirectory(external/boringssl/repo)

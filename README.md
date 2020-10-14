@@ -24,3 +24,9 @@ git push origin HEAD:master
 
 # How to sync repos
 repo sync -j20 -d
+
+# Configure cmake for target platform
+cmake .. -Dprotobuf_BUILD_TESTS=off -DCMAKE_TOOLCHAIN_FILE=../CMakeToolchain.txt
+
+# Configure cmake for host
+cmake .. -Dprotobuf_BUILD_TESTS=off 
