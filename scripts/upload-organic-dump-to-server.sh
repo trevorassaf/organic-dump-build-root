@@ -22,7 +22,7 @@ libmysqlcppconn8.so.2.8.0.18
 
 PROJECT_ROOT=/home/bozkurtus/Documents/codez/personal-repos/organic-dump/organic-dump-project
 DESTINATION_PATH=/home/bozkurtus/codez/plantsandthings/organic_dump_server
-TARGET_MACHINE=35.208.146.146
+TARGET_MACHINE=35.247.98.106
 SSH_KEY_PATH=~/.ssh/trevor-assaf-gcp-ssh-key
 SSH_USERNAME=bozkurtus
 
